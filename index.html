@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>The basic language of web: HTML</title>
   </head>
   <body>
@@ -13,7 +14,7 @@
     <h4>The basic language of web: HTML</h4>
     <h5>The basic language of web: HTML</h5>
     <h6>The basic language of web: HTML</h6> -->
-    <header>
+    <header class="main-header">
       <h1>📘 The code Magazine</h1>
       <nav>
         <a href="blog.html">Blog</a>
@@ -30,7 +31,7 @@
           alt="author image"
           width="70px"
         />
-        <p>
+        <p id="author">
           Posted by <strong>Raviranjan mahto</strong> on Wednesday, November 2nd
           2022
         </p>
@@ -57,7 +58,7 @@
       </p>
       <p>In HTML, each elements is made up of 3 parts:</p>
       <ol>
-        <li>The opening tag</li>
+        <li class="first-li">The opening tag</li>
         <li>The closing tag</li>
         <li>The actual element</li>
       </ol>
@@ -76,7 +77,9 @@
         the 5 of them.
       </p>
       <ul>
-        <li>To able to use the fundamental of web dev language</li>
+        <li class="first-li">
+          To able to use the fundamental of web dev language
+        </li>
         <li>
           To hand-craft beautiful website instead of relying on tools like wix
           or wordpress.
@@ -86,27 +89,30 @@
         <li>To have fun.</li>
       </ul>
       <p><a href="newpage.html" target="_blank">New page</a></p>
+      <p>Adding some paragraph to check the pseudo class</p>
     </article>
     <aside>
       <h4>Related posts</h4>
-      <ul>
+      <ul class="related">
         <li>
           <img src="img/related-1.jpg" alt="Person programming" width="75" />
           <a href="#"> How to learn Web Development</a>
-          <p>By raviranjan Mahto</p>
+          <p class="related-author">By raviranjan Mahto</p>
         </li>
         <li>
           <img src="img/related-2.jpg" alt="img" width="75" />
           <a href="#"> The Unknown power of CSS</a>
-          <p>By raviranjan Mahto</p>
+          <p class="related-author">By raviranjan Mahto</p>
         </li>
         <li>
           <img src="img/related-3.jpg" alt="img" width="75" />
           <a href="#"> Why JavaScript is awesome</a>
-          <p>By raviranjan Mahto</p>
+          <p class="related-author">By raviranjan Mahto</p>
         </li>
       </ul>
     </aside>
-    <footer>Copyright &copy; 2022 bt the Code Magazines.</footer>
+    <footer>
+      <p id="copyright">Copyright &copy; 2022 by the Code Magazines.</p>
+    </footer>
   </body>
 </html>
