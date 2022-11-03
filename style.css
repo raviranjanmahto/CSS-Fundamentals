@@ -125,5 +125,18 @@ a:active {
   background-color: #121312;
   font-style: italic;
 }
-
 /* order is must LVHA=>link visited hover active */
+
+/* Resolving CSS conflicts */
+/* #copyright {
+  color: #1098ad;
+}
+.copyright {
+  color: pink;
+}
+.text {
+  color: blue;
+}
+footer p {
+  color: green !important;
+} */
